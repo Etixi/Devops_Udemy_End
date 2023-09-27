@@ -1,0 +1,147 @@
+ clear
+  465  cd /c/
+  466  mkdir gitrepos
+  467  cd gitrepos/
+  468  ls
+  469  mkdir titanwork
+  470  cd titanwork/
+  471  git init
+  472  ls
+  473  ls -a
+  474  clear
+  475  cd ..
+  476  mkdir nebular
+  477  mkdir jupiter
+  478  mkdir pluto
+  479  ls
+  480  touch saturn{1..10}.py
+  481  ls
+  482  touch jupiter/test1
+  483  touch nebular/testter32
+  484  touch pluto/taster89
+  485  ls
+  486  git status
+  487  cd /c:
+  488  cd /c/
+  489  mkdir gitrepos
+  490  ls
+  491  cd gitrepos/
+  492  ls
+  493  mkdir titanwork
+  494  cd titanwork/
+  495  git init
+  496  ls
+  497  ls -a
+  498  cd ..
+  499  cd ..
+  500  cd /c/gitrepos/titanwork/
+  501  cd /c/gitrepos/titanwork/
+  502  mkdir nebular
+  503  mkdir jupyter
+  504  mkdir pluto
+  505  ls
+  506  touch saturn{1..10}.py
+  507  ls
+  508  touch jupyter/test1
+  509  touch nebula/testter32
+  510  touch nebular/testter32
+  511  touch pluto/taster89
+  512  ls
+  513  git status
+  514  git add .
+  515  git status
+  516  git commit -m 'new files'
+  517  git remote add origin git@github.com:Etixi/titanwork.git
+  518  cat .git/config
+  519  git branch -M main
+  520  git push -u origin main
+  521  ls
+  522  vim saturn1.py
+  523  git status
+  524  git add saturn1.py
+  525  git commit -m 'saturn moons'
+  526  git push origin main
+  527  git log
+  528  git log --online
+  529  git log --oneline
+  530  git show c4edc93
+  531  vim saturn1.py
+  532  git add .
+  533  git commit -m 'upadated staturns moons names'
+  534  git push origin main
+  535  git log --oneline
+  536  git show a6065a7
+  537  git pull
+  538  cat saturn10.py
+  539  git log
+  540  history
+  541  git branch -c sprintl
+  542  git branch -a
+  543  ls
+  544  git checkout sprintl
+  545  ls
+  546  git rm saturn6.py saturn7.py saturn8.py saturn9.py
+  547  ls
+  548  git status
+  549  git mv saturn1.py saturn11.py
+  550  clear
+  551  ls
+  552  git rm saturn2.py saturn3.py saturn4.py saturn5.py
+  553  touch jupyter{1..4}.rb
+  554  ls
+  555  git add .
+  556  git commit -m 'jupyter changes'
+  557  git push origin sprintl
+  558  git pull
+  559  git checkout sprintl2
+  560  ls
+  561  touch sun earth venus mercury
+  562  ls
+  563  git add .
+  564  git commit -m 'planets & stars'
+  565  git push origin sprintl2
+  566  git branch -a
+  567  git switch sprint1
+  568  git switch sprintl1
+  569  git switch sprint1
+  570  git switch sprintl
+  571  ls
+  572  git switch main
+  573  ls
+  574  git merge sprintl
+  575  ls
+  576  clear
+  577  ls
+  578  vim .gitignore
+  579  git add .
+  580  git status
+  581  git commit -m 'git ignore'
+  582  git push origin main
+  583  git switch sprintl
+  584  ls
+  585  vim .gitignore
+  586  git add .
+  587  git commit -m 'git ignore'
+  588  git push origin sprintl
+  589  clear
+  590  git checkout main
+  591  ls
+  592  git merge sprintl
+  593  git status
+  594  git merge sprintl
+  595  ls
+  596  git checkout sprintl
+  597  ls
+  598  cd ..
+  599  ls
+  600  cd titanwork/
+  601  git push --all origin
+  602  cd ..
+  603  rm -rf titanwork
+  604  ls
+  605  git clone git@github.com:Etixi/titanwork.git
+  606  ls
+  607  cd titanwork/
+  608  ls
+
+

@@ -1,0 +1,28 @@
+Git Commands
+=============
+
+
+
+
+Amazon Commands
+===============
+    1  cat /etc/os-release 
+    2  sudo yum search jdk
+    3  sudo yum install java-1.8.0-openjdk
+    4  sudo yum install maven -y
+    5  sudo yum search java
+    6  mvn -version
+    7  git clone https://github.com/devopshydclub/vprofile-project.git
+    8  cd vprofile-project/
+    9  ls
+   10  mvn install
+   11  aws s3 ls
+   12  ls
+   13  aws s3 ls
+   14  aws s3 mb s3://maven-arts
+   15  aws s3 mb s3://maven-artsaws s3 cp target/vprofile-v2.war s3://maven-arts/
+   16  aws s3 cp target/vprofile-v2.war s3://maven-arts/
+   17  aws s3 cp target/vprofile-v2.war s3://maven-arts//maven-arts/
+
+
+

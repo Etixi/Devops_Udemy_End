@@ -1,0 +1,26 @@
+      cd /c/vagrant-vms/Section10/bash_scripts/
+  500  ls
+  501  cd Bash_Scripts/
+  502  ls
+  503  vim remotexecmulti.sh
+  504  vim remotexecmulti.sh
+  505  vim MultiComRemExec.sh
+  506  cp remotexecmulti.sh remotexecmulti.sh_13123030_1040.bakup
+  507  ls
+  508  vim remotexecmulti.sh
+  509  cp remotexecmulti.sh_13123030_1040.bakup remotexecmulti.sh
+  510  vim remotexecmulti.sh
+  511  clear
+  512  ls
+  513  cp remotexecmulti.sh remotexecmulti.sh_13123030_1040.bakup
+  514  cp remotexecmulti.sh remotexecmulti.sh_12113030_1040.bakup
+  515  cp remotexecmulti.sh remotexecmulti.sh_12103030_1040.bakup
+  516  cp remotexecmulti.sh remotexecmulti.sh_05103030_1050.bakup
+  517  ls
+  518  tar
+  519  tar czvf remotexecmulti.sh.Bakup*.bakup
+  520  tar
+  521  tar czvf remotexecmulti.Bakup *.bakup
+  522  ls
+  523  rm -rf *.bakup
+  524  ls

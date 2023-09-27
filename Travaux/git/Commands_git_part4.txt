@@ -1,0 +1,91 @@
+ clear
+  465  cd /c/
+  466  mkdir gitrepos
+  467  cd gitrepos/
+  468  ls
+  469  mkdir titanwork
+  470  cd titanwork/
+  471  git init
+  472  ls
+  473  ls -a
+  474  clear
+  475  cd ..
+  476  mkdir nebular
+  477  mkdir jupiter
+  478  mkdir pluto
+  479  ls
+  480  touch saturn{1..10}.py
+  481  ls
+  482  touch jupiter/test1
+  483  touch nebular/testter32
+  484  touch pluto/taster89
+  485  ls
+  486  git status
+  487  cd /c:
+  488  cd /c/
+  489  mkdir gitrepos
+  490  ls
+  491  cd gitrepos/
+  492  ls
+  493  mkdir titanwork
+  494  cd titanwork/
+  495  git init
+  496  ls
+  497  ls -a
+  498  cd ..
+  499  cd ..
+  500  cd /c/gitrepos/titanwork/
+  501  cd /c/gitrepos/titanwork/
+  502  mkdir nebular
+  503  mkdir jupyter
+  504  mkdir pluto
+  505  ls
+  506  touch saturn{1..10}.py
+  507  ls
+  508  touch jupyter/test1
+  509  touch nebula/testter32
+  510  touch nebular/testter32
+  511  touch pluto/taster89
+  512  ls
+  513  git status
+  514  git add .
+  515  git status
+  516  git commit -m 'new files'
+  517  git remote add origin git@github.com:Etixi/titanwork.git
+  518  cat .git/config
+610  clear
+  611  ls
+  612  vim jupyter1.rb
+  613  cat jupyter1.rb
+  614  git checkout jupiter.rb
+  615  git checkout jupiter1.rb
+  616  ls
+  617  git checkout jupyter1.rb
+  618  cat jupyter1.rb
+  619  clear
+  620  vim jupyter1.rb
+  621  git status
+  622  git diff
+  623  git status
+  624  git diff
+  625  git add .
+  626  git status
+  627  git diff
+  628  git diff --cached
+  629  git restore --staged jupyter1.rb
+  630  git status
+  631  git diff
+  632  git add .
+  633  git commit -m 'playbook'
+  634  git status
+  635  git diff
+  636  git diff --cached
+  637  git log --oneline
+  638  git diff c498884..9221af6
+  639  git revert HEAD
+  640  cat jupyter1.rb
+  641  git log --oneline
+  642  git reset --hard 3e9e35c
+  643  git log --oneline
+
+

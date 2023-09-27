@@ -1,0 +1,51 @@
+ 	cd /c/
+  489  mkdir gitrepos
+  490  ls
+  491  cd gitrepos/
+  492  ls
+  493  mkdir titanwork
+  494  cd titanwork/
+  495  git init
+  496  ls
+  497  ls -a
+  500  cd /c/gitrepos/titanwork/
+  501  cd /c/gitrepos/titanwork/
+  502  mkdir nebular
+  503  mkdir jupyter
+  504  mkdir pluto
+  505  ls
+  506  touch saturn{1..10}.py
+  507  ls
+  508  touch jupyter/test1
+  509  touch nebula/testter32
+  510  touch nebular/testter32
+  511  touch pluto/taster89
+  512  ls
+  513  git status
+  514  git add .
+  515  git status
+  516  git commit -m 'new files'
+  517  git remote add origin git@github.com:Etixi/titanwork.git
+  518  cat .git/config
+  519  git branch -M main
+  520  git push -u origin main
+  521  ls
+  522  vim saturn1.py
+  523  git status
+  524  git add saturn1.py
+  525  git commit -m 'saturn moons'
+  526  git push origin main
+  527  git log
+  528  git log --online
+  529  git log --oneline
+  530  git show c4edc93
+  531  vim saturn1.py
+  532  git add .
+  533  git commit -m 'upadated staturns moons names'
+  534  git push origin main
+  535  git log --oneline
+  536  git show a6065a7
+  537  git pull
+  538  cat saturn10.py
+  539  git log
+
